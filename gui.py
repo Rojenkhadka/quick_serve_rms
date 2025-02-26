@@ -621,7 +621,7 @@ class KitchenDashboard(tk.TK):
         self.geometry("1000x600")
         self.configure(background='#98FB98')
         self.create_widgets()
-        logout_frame = ttk.Frame(self)
+        logout_frame=ttk.Frame(self)
         logout_frame.pack(side='bottom', fill='x', pady=10)
         ttk.Button(logout_frame, text="Logout", command=self.logout).pack()
         self.refresh_orders()
