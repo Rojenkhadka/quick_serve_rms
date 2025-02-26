@@ -600,7 +600,7 @@ class AdminDashboard(tk.Tk):
             self.report_text.insert(tk.END, report)
             conn.close()
 
-class KitchenDashboard(tk.Tk):
+class KitchenDashboard(tk.TK):
     def create_logout_button(self):
         logout_frame = ttk.Frame(self)
         logout_frame.pack(side='bottom', fill='x', pady=10)
