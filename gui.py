@@ -113,7 +113,7 @@ class LoginWindow(tk.TK):
             if conn:
                 conn.close()
 
-class SignupWindow(tk.Toplevel):
+class SignupWindow(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Sign Up")
