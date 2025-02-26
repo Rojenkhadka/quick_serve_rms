@@ -46,7 +46,7 @@ class MainDashboard(tk.Tk):
         signup_window.mainloop()
 
 
-class LoginWindow(tk.Tk):
+class LoginWindow(tk.TK):
     def __init__(self):
         super().__init__()
         self.title("Restaurant Management System - Login")
