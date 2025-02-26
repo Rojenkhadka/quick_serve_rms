@@ -100,7 +100,7 @@ class LoginWindow(tk.TK):
                 role = result[0]
                 self.destroy()  # Close login window before opening dashboard
                 if role == 'admin':
-                    AdminDashboard()
+                    Admindashboard()
                 elif role == 'staff':
                     KitchenDashboard()
                 else:
@@ -170,7 +170,7 @@ class SignupWindow(tk.Tk):
             if conn:
                 conn.close()
 
-class AdminDashboard(tk.Tk):
+class Admindashboard(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Admin Dashboard")
